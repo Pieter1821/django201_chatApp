@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+<title>{% block title %}{{post.text}} by {{post.author.username}}{% endblock %}</title>
+
+
+
+
+{% block body %}
+   {% include "includes/post.html" with post=post %}
+        
+{% endblock body %}
+
