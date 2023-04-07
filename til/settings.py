@@ -47,6 +47,7 @@ INSTALLED_APPS = [
 
     'feed',
     'profiles',
+    'followers',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
