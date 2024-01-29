@@ -1,1 +1,1 @@
-# django201_chatApp
+# django201 capstone project chat app
